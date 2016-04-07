@@ -16,6 +16,24 @@ var CustomerSchema = new Schema({
     required: 'Please fill Customer name',
     trim: true
   },
+  address: {
+    type: String,
+    default: '',
+    required: 'Please fill Customer address',
+    trim: true
+  },
+  state: {
+    type: String,
+    default: '',
+    required: 'Please fill Customer state',
+    trim: true
+  },
+  country: {
+    type: String,
+    default: '',
+    required: 'Please fill Customer country',
+    trim: true
+  },
   created: {
     type: Date,
     default: Date.now
