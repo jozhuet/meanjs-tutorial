@@ -1,6 +1,9 @@
 <section>
   <div class="page-header">
     <h1 data-ng-bind="vm.customer.name"></h1>
+    <h4 data-ng-bind="vm.customer.address"></h4>
+    <h4 data-ng-bind="vm.customer.state"></h4>
+    <h4 data-ng-bind="vm.customer.country"></h4>
   </div>
   <div class="pull-right"
        data-ng-show="vm.customer.isCurrentUserOwner">
